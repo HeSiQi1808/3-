@@ -1,0 +1,430 @@
+@import"publick.css";
+/* .content .rightBox{
+    width: 80%;
+    height: 100%;
+    background-color: #f2edf3;
+} */
+.content .rightBox .topBox{
+    width: 91%;
+    height:100%;
+    margin: 60px 55px 40px 37px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .rightBox .topBox .fspan{
+    font-size: 14px;
+    font-weight: 900;
+}
+.content .rightBox .topBox .rspan span{
+    font-size: 14px;
+} 
+.content .rightBox .forms{
+    width: 92.7%;
+    height: 100%;
+    margin: 39px 38px 0 36px;
+    display: flex;
+}
+/* 第一个表单左 */
+.content .rightBox .forms .forms1{
+    width: 47.9%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+/* 表单内容的盒子(左) */
+#textForm{
+    width: 82.2%;
+    height: 100%;
+    padding: 44px 40px 0 40px;
+}
+#textForm p:nth-child(1){
+    font-size: 14px;
+    font-weight: 900;
+}
+#textForm p:nth-child(2){
+    font-size: 14px;
+    color: #76838f;
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+#text1 span{
+    display: block;
+    font-size:10px;
+    margin-top: 25px;
+}
+#text1 input{
+    width: 100%;
+    height: 42px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ebedf2;
+    color: #d3c8c8;
+}
+#text1 ::-webkit-input-placeholder{
+    color: #d3c8c8;
+}
+#textForm .chose{
+    margin-top: 24px;
+    margin-bottom: 14px;
+    display: flex;
+    line-height: 18px;
+    font-size: 10px;
+}
+#textForm .chose img{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 11px;
+}
+#textForm .btn{
+    display: flex;
+    padding-bottom: 55px; 
+}
+#subBtn{
+    width: 34.6%;
+    height: 42px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a45dff;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    font-weight: 900;
+    margin-right: 12px;
+}
+#canBtn{
+    width: 34.6%;
+    height: 42px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: #f8f9fa;
+    line-height: 42px;
+}
+/* 第二个表单 */
+.content .rightBox .forms .forms2{
+    width: 47.9%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+/* 表单内容的盒子 */
+#textForm1{
+    width: 82.2%;
+    height: 100%;
+    padding: 44px 40px 0 40px;
+}
+#textForm1 .fp{
+    font-size: 14px;
+    font-weight: 900;
+}
+#textForm1 .sp{
+    font-size: 14px;
+    color: #76838f;
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+#text2 p{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+#text2 p:nth-child(1){
+    margin-top: 24px;
+}
+#text2 p span{
+    display: inline-block;
+    font-size: 10px;
+    height: 42px;
+    line-height: 42px;
+}
+#text2 p input{
+    width: 72%;
+    height: 42px;
+    border-radius: 5px;
+    border: 1px solid #ebedf2;
+    color: #d3c8c8;
+}
+#text2 p ::-webkit-input-placeholder{
+    color: #d3c8c8;
+}
+#textForm1 .chose{
+    margin-top: 46px;
+    margin-bottom: 14px;
+    display: flex;
+    line-height: 18px;
+    font-size: 10px;
+}
+#textForm1 .chose img{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 11px;
+}
+#textForm1 .btn{
+    display: flex;
+    padding-bottom: 41px; 
+}
+#subBtn{
+    width: 34.6%;
+    height: 42px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a45dff;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    font-weight: 900;
+    margin-right: 12px;
+}
+#canBtn{
+    width: 34.6%;
+    height: 42px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: #f8f9fa;
+    line-height: 42px;
+}
+.content .rightBox .formsTwo{
+    width: 92.7%;
+    height: 100%;
+    margin: 39px 38px 0 36px;
+    background-color: white;
+    border-radius: 5px;
+}
+.content .rightBox .formsTwo .formsT1{
+    width: 91.7%;
+    height: 100%;
+    padding: 43px 40px 0 40px;
+}
+.content .rightBox .formsTwo .formsT1 p:nth-child(1){
+    font-size: 14px;
+    font-weight: 900;
+}
+.content .rightBox .formsTwo .formsT1 p:nth-child(2){
+    font-size: 14px;
+    color: #76838f;
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+.formsTwo .formsT1 .User{
+    display: block;
+    font-size:10px;
+    margin-top: 25px;
+}
+#text3 span{
+    display: block;
+    font-size:10px;
+    margin-top: 25px;
+}
+#text3 input{
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ebedf2;
+    color: #d3c8c8;
+}
+#text3 ::-webkit-input-placeholder{
+    color: #d3c8c8;
+}
+#list{
+    width: 100%;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #ebedf2;
+    color: #d3c8c8;
+    margin-top: 10px;
+}
+.content .rightBox .formsTwo .formsT1 .uL{
+    width: 100%;
+    display:flex;
+    margin-top: 10px;
+}
+#uploadImg{
+    width: 85%;
+    height: 44px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius:5px;
+    border: 1px solid #ebedf2;
+    border-right: none;
+}
+#upLoad{
+    width: 127px;
+    height: 44px;
+    border: none;
+    border-top-right-radius:5px;
+    border-bottom-right-radius:5px;
+    font-size: 10px;
+    color: white;
+    font-weight: 900;
+    background-color: #af67ff;
+}
+#city{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #ebedf2;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+#city ::-webkit-input-placeholder{
+    color: #d3c8c8;
+}
+#wbk{
+    width: 100%;
+    border: 1px solid #ebedf2;
+    height: 80px;
+    border-radius: 5px;
+    margin-top: 10px;
+    resize: none;
+}
+.content .rightBox .formsTwo .formsT1 .btn1{
+    display: flex;
+    margin-top: 25px;
+    padding-bottom: 40px; 
+}
+#subBtn1{
+    width: 14.9%;
+    height: 42px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #a45dff;
+    color: white;
+    text-align: center;
+    line-height: 42px;
+    font-weight: 900;
+    margin-right: 12px;
+}
+#canBtn1{
+    width: 14.9%;
+    height: 42px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    background-color: #f8f9fa;
+    line-height: 42px;
+}
+.formsThree{
+    width: 92.7%;
+    height: 100%;
+    margin: 39px 38px 0 36px;
+    display: flex;
+}
+.formsL{
+    width: 47.9%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+#textFormL{
+    width: 82.2%;
+    height: 100%;
+    padding: 44px 40px 64px 40px;
+}
+#textFormL p:nth-child(1){
+    font-size: 14px;
+    font-weight: 900;
+}
+#textFormL p:nth-child(2){
+    padding-bottom: 3px;
+    padding-top: 20px;
+}
+#textFormL p:nth-child(2) span{
+    font-size: 14px;
+    color: #76838f;
+}
+#text4 span{
+    display: block;
+    font-size:10px;
+    margin-top: 25px;
+}
+#text4 input{
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ebedf2;
+    color: #d3c8c8;
+}
+#text4 ::-webkit-input-placeholder{
+    color: #d3c8c8;
+}
+.formsR{
+    width: 47.9%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+#textFormR{
+    width: 82.2%;
+    height: 100%;
+    padding: 44px 40px 64px 40px;
+}
+#textFormR p:nth-child(1){
+    font-size: 14px;
+    font-weight: 900;
+}
+#textFormR p:nth-child(2){
+    padding-bottom: 3px;
+    padding-top: 20px;
+}
+#textFormR p:nth-child(2) span{
+    font-size: 14px;
+    color: #76838f;
+}
+#text4 select{
+    width: 100%;
+    height: 38px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ebedf2;
+    color: #d3c8c8;
+}
+
+@media screen and (max-width:800px){
+    .forms{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .content .rightBox .forms .forms1{
+        width: 100%;
+        margin-left: -20px;
+    }
+    .content .rightBox .forms .forms2{
+        width: 100%;
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+    .formsThree{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .formsL{
+        width: 100%;
+        margin-left: -35px;
+    }
+    .formsR{
+        width: 100%;
+        margin-left: -35px;
+        margin-top: 20px;
+    }
+    .content .rightBox .formsTwo{
+        width: 100%;
+        margin:20px 0 0 0;
+    }
+    /* .content .rightBox .formsTwo .formsT1 {
+        padding: 43px 3px 0 0px;
+    } */
+}
+
+
+

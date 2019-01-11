@@ -1,0 +1,91 @@
+@import"publick.css";
+/* 右边盒子最大的盒子 */
+/* .content .rightBox{
+    width: 80%;
+    width: 100%;
+    height: 100%;
+    background-color: #f2edf3;
+} */
+/* 右边最大盒子的上面的文字 */
+.headText{
+    width: 91%;
+    display: flex;
+    justify-content: space-between;
+    margin: 58px 57px 36px 36px;
+}
+.headText p:nth-child(1){
+    font-size: 14px;
+    font-weight: 900;
+}
+.headText p:nth-child(2){
+    font-size: 12px;
+}
+/* 文字底下的各个数据图例 */
+.echart{
+    width: 92.7%;
+    margin: 38px;
+}
+.chart{
+    width: 100%;
+    height: 297px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#chart1{
+    width: 47.9%;
+    background-color: white;
+    border-radius: 5px;
+}
+#chart2{
+    width: 47.9%;
+    background-color: white;
+    border-radius: 5px;
+}
+#chart3{
+    width: 47.9%;
+    background-color: white;
+    border-radius: 5px;
+}
+#chart4{
+    width: 47.9%;
+    background-color: white;
+    border-radius: 5px;
+}
+#chart5{
+    width: 47.9%;
+    background-color: white;
+    border-radius: 5px;
+}
+#chart6{
+    width: 47.9%;
+    background-color: white;
+    border-radius: 5px;
+}
+@media screen and (max-width:800px){
+    .chart{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    #chart1{
+        width: 100%;
+    }
+    #chart2{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #chart3{
+        width: 100%;
+    }
+    #chart4{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #chart5{
+        width: 100%;
+    }
+    #chart6{
+        width: 100%;
+        margin-top: 20px;
+    }
+}

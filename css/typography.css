@@ -1,0 +1,59 @@
+@import"publick.css";
+/* 右边盒子最大的盒子 */
+/* .content .rightBox{
+    width: 80%;
+    height: 100%;
+    background-color: #f2edf3;
+} */
+.headText{
+    width: 91%;
+    display:flex;
+    justify-content: space-between;
+    padding:58px 56px 0 36px;
+}
+.headText p{
+    font-size: 14px;
+}
+.allList{
+    width: 92.8%;
+}
+.firstList{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 36px 0 36px;
+}
+.leftList{
+    width: 47.9%;
+    background-color: white;
+    border-radius: 5px;
+}
+.leftInList{
+    width: 82.2%;
+    padding:43px 40px 90px 40px;
+}
+.leftInList p{
+    font-size: 14px;
+    margin-bottom: 17px;
+}
+.leftInList .spanText{
+    margin-bottom: 27px;
+}
+.leftInList .spanText span{
+    margin-right: 5px;
+    color:#76838f;
+}
+.leftInList li{
+    width: 100%;
+    border-top:1px solid #ebedf2;
+}
+@media screen and (max-width:800px){
+    .firstList{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .leftList{
+        width: 100%;
+
+    }
+}

@@ -1,0 +1,90 @@
+@import"publick.css";
+/* .content .rightBox{
+    width: 80%;
+    height: 100%;
+    background-color: #f2edf3;
+} */
+.content .rightBox .topBox{
+    width: 91%;
+    height:100%;
+    margin: 60px 55px 40px 37px;
+    display: flex;
+    justify-content: space-between;
+}
+.content .rightBox .topBox .fspan{
+    font-size: 14px;
+    font-weight: 900;
+}
+.content .rightBox .topBox .rspan span{
+    font-size: 14px;
+} 
+.content .rightBox table{
+    /* #ebedf2; */
+    width:92.7%;
+    background-color: white;
+    margin: 40px 36px 40px 36px;
+}
+.content .rightBox table tr{
+    display: flex;
+}
+.content .rightBox table td{
+    height: 62px;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    border-right: 1px solid #ebedf2;
+    border-bottom: 1px solid #ebedf2;
+}
+.content .rightBox table td img{
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    padding-right: 21px;
+    padding-left: 16px;
+}
+.content .rightBox table td:nth-child(1){
+    width: 25%;
+}
+.content .rightBox table td:nth-child(2){
+    width: 25%;
+}
+.content .rightBox table td:nth-child(3){
+    width: 25%;
+}
+.content .rightBox table td:nth-child(4){
+    width: 25%;
+}
+@media screen and (max-width:800px){}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

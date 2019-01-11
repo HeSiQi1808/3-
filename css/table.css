@@ -1,0 +1,58 @@
+@import"publick.css";
+/* 右边盒子最大的盒子 */
+/* .content .rightBox{
+    width: 80%;
+    height: 100%;
+    background-color: #f2edf3;
+} */
+.headText{
+    width: 91%;
+    display:flex;
+    justify-content: space-between;
+    padding:58px 56px 0 36px;
+}
+.headText p{
+    font-size: 14px;
+}
+.allTable{
+    width: 92.8%;
+}
+.firstTable{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 36px 0 36px;
+}
+.leftTable{
+    width: 47.9%;
+    background-color: white;
+    border-radius: 5px;
+}
+.leftTable .Fp{
+    font-size: 14px;
+    padding-top: 45px;
+    padding-left: 40px;
+}
+.leftTable .spanText{
+    padding-left: 40px;
+    font-size: 14px;
+    color: #76838f;
+    padding-top: 20px;
+}
+.leftInTable{
+    font-size: 13px;
+    padding:30px 40px 40px 40px;
+}
+.leftInTable td{
+    border-bottom: 1px solid #ebedf2;
+}
+@media screen and (max-width:800px){
+    .firstTable{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .leftTable{
+        width: 100%;
+
+    }
+}

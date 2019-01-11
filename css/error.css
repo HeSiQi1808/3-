@@ -1,0 +1,54 @@
+body{
+    background-color: #198ae3;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.error{
+    width: 45%;
+    height: 141px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin: 150px auto;
+}
+.spanText{
+    font-size: 21px;
+    margin-top: 45px;
+}
+.back{
+    width: 106px;
+    margin:0 auto;
+}
+.reserve{
+    width: 286px;
+    margin: 63px auto;
+    color: white;
+}
+/* @media screen and (max-width:800px){
+    body{
+        width: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .error{
+        flex-wrap: wrap;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .spanText{
+        width: 100%;
+    }
+    .back{
+        width: 100%;
+        margin:63px auto;
+    }
+    .reserve{
+        width: 100%;
+        margin:63px auto;
+
+    }
+} */
